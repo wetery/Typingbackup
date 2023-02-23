@@ -19,7 +19,7 @@ const Tooltip: React.FC<React.PropsWithChildren<TooltipProps>> = ({ children, co
           visible ? 'opacity-100' : 'opacity-0'
         } ${placementClasses} absolute left-1/2 transform -translate-x-1/2 flex items-center justify-center pointer-events-none transition-opacity`}
       >
-        <span className="py-1 px-2 bg-white dark:bg-gray-700 rounded-lg shadow-md text-gray-500 dark:text-gray-300 text-xs whitespace-nowrap">
+        <span className="py-1 px-2 bg-white dark:bg-gray-700 rounded-lg shadow-md text-gray-500 dark:text-gray-300 text-ms whitespace-nowrap">
           {content}
         </span>
       </div>
