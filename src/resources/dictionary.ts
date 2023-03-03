@@ -782,6 +782,14 @@ export const dictionaries: Dictionary[] = [
     url: './dicts/JapVocabList.N5.json',
     length: 670,
   },
+  {
+    id: 'chinese001',
+    name: 'chinesehanzi',
+    description: '3000汉字',
+    category: '英语学习',
+    url: './dicts/Hanzi.json',
+    length: 3000,
+  },
 ]
 
 /**
